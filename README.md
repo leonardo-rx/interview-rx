@@ -91,7 +91,9 @@ Using the credentials sent by email, access the `cy-rx` organization and select 
 After accessing the pipeline summary, click on **Trigger Pipeline**, and in the **Config Source and Checkout Source sections, select the Main branch**.
 Then, execute the pipeline by clicking **Run Pipeline**.
 
-![Circle example](img/circle.png)
+![Circle example](img/circle2.png)
+
+![Circle example 2](img/circle.png)
 
 ## How to see executions reports
 Using the credentials sent by email, access https://cloud.cypress.io/login and make login with email.
