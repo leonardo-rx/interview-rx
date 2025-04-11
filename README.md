@@ -61,26 +61,44 @@ Throughout the project, 7 exercises were completed in order to validate specific
 
 ## How to execute the project
 
-###### Instalar dependências
+#### Install dependencies
 ```npm install --save-dev cypress```
 
 <!-- pagebreak -->
 
-###### Execution via Cypress Web
+#### Execution via Cypress Web
 To execute via Cypress Web App, run the command below
 <!-- pagebreak -->
+
 ``` npx cypress open ```
 
 <!-- pagebreak -->
 
-###### Execution via Terminal
+#### Execution via Terminal
 Local
 <!-- pagebreak -->
+
 ```npx cypress run```
 
 Local execution with output of results to the Cypress Dashboard
 <!-- pagebreak -->
+
 ```npx cypress run --record --key 7e7c9ff4-ca24-4ed6-92b6-5bd7f4f4cdad```
 <!-- pagebreak --->
 
-###### Execução via Circle CI
+#### Build execution using CircleCI
+Using the credentials sent by email, access the `cy-rx` organization and select the `cy-run` pipeline by clicking on Pipelines in the card.
+After accessing the pipeline summary, click on **Trigger Pipeline**, and in the **Config Source and Checkout Source sections, select the Main branch**.
+Then, execute the pipeline by clicking **Run Pipeline**.
+
+![Circle example](img/circle.png)
+
+## How to see executions reports
+Using the credentials sent by email, access https://cloud.cypress.io/login and make login with email.
+After this, Click on Project and access the cy-run-rx project. The reports will appear if:
+
+  * The project is run locally using the parameter --key 7e7c9ff4-ca24-4ed6-92b6-5bd7f4f4cdad
+  * A new push is made to the project's main branch, which will trigger an automatic run via CircleCI
+  * It is executed manually via the CircleCI CLI
+
+![Result example](img/cy.dash.png)
