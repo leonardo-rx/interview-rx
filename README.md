@@ -108,7 +108,7 @@ After this, Click on Project and access the cy-run-rx project. The reports will 
 
 ![Result example](img/cy.dash.png)
 
-#### Bug report
+## Bug report
 In the second test section, there are two defects present in the table component:
 
 1. The order of the Order More and View buttons is different between the last and second-to-last items in the table.
