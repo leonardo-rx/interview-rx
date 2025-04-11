@@ -87,7 +87,7 @@ Local execution with output of results to the Cypress Dashboard
 <!-- pagebreak --->
 
 #### Build execution using CircleCI
-Using the credentials sent by email, access the `cy-rx` organization and select the `cy-run` pipeline by clicking on Pipelines in the card.
+Using the credentials sent by email, make login on Circle CI using https://auth.circleci.com/u/login and acess `cy-rx` organization and select the `cy-run` pipeline by clicking on Pipelines in the card.
 After accessing the pipeline summary, click on **Trigger Pipeline**, and in the **Config Source and Checkout Source sections, select the Main branch**.
 Then, execute the pipeline by clicking **Run Pipeline**.
 
