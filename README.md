@@ -68,15 +68,18 @@ Throughout the project, 7 exercises were completed in order to validate specific
 
 ###### Execution via Cypress Web
 To execute via Cypress Web App, run the command below
+<!-- pagebreak -->
 ``` npx cypress open ```
 
 <!-- pagebreak -->
 
 ###### Execution via Terminal
 Local
+<!-- pagebreak -->
 ```npx cypress run```
 
 Local execution with output of results to the Cypress Dashboard
+<!-- pagebreak -->
 ```npx cypress run --record --key 7e7c9ff4-ca24-4ed6-92b6-5bd7f4f4cdad```
 <!-- pagebreak --->
 
