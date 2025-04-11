@@ -91,6 +91,9 @@ Using the credentials sent by email, make login on Circle CI using https://auth.
 After accessing the pipeline summary, click on **Trigger Pipeline**, and in the **Config Source and Checkout Source sections, select the Main branch**.
 Then, execute the pipeline by clicking **Run Pipeline**.
 
+In the configuration file related to CircleCI, the parallelism property was used to improve performance during test execution.
+Since this is a small project, the impact may not be significant, but this is an important parameter for larger projects.
+
 ![Circle example](img/circle2.png)
 
 ![Circle example 2](img/circle.png)
