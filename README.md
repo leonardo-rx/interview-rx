@@ -62,7 +62,7 @@ Throughout the project, 7 exercises were completed in order to validate specific
 ## How to execute the project
 
 #### Install dependencies
-```npm install --save-dev cypress```
+```npm install```
 
 <!-- pagebreak -->
 
