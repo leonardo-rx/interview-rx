@@ -5,10 +5,10 @@ describe('Exercise 5', () => {
         cy.get('.MuiTabs-flexContainer').contains('Exercise 5 - Login Command').click()
     })
 
-    it('user login plan 1', () => {
+    it('user login healt-plan 1', () => {
         cy.Login(userPlan1)
     })
-    it('user login plan 2', () => {
+    it('user login health-plan 2', () => {
         cy.Login(userPlan2)
     })
 })
