@@ -107,3 +107,12 @@ After this, Click on Project and access the cy-run-rx project. The reports will 
   * It is executed manually via the CircleCI CLI
 
 ![Result example](img/cy.dash.png)
+
+#### Bug report
+In the second test section, there are two defects present in the table component:
+
+1. The order of the Order More and View buttons is different between the last and second-to-last items in the table.
+
+2. In the last item of the table, the View button has a broken css style.
+
+![Result example](img/bug.png)
