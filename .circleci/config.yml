@@ -1,0 +1,9 @@
+version: 2.1
+orbs:
+  cypress: cypress-io/cypress@3
+workflows:
+  build:
+    jobs:
+      - cypress/run:
+          parallelism: 3
+          cypress-command: 'npx cypress run --record --parallel --key 7e7c9ff4-ca24-4ed6-92b6-5bd7f4f4cdad'

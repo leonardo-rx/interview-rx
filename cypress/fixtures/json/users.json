@@ -1,0 +1,10 @@
+{
+    "userHealthCarePlan1":{
+        "email": "leonardol@rx-test.com",
+        "password": "@bcdef#"
+    },
+    "userHealthCarePlan2":{
+        "email": "leonardo2@rx-test.com",
+        "password": "@bcdef#"
+    }
+}
