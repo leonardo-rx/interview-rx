@@ -59,3 +59,25 @@ Throughout the project, 7 exercises were completed in order to validate specific
   * Linked to `cy.intercept`, I perform two validations: I ensure that the request body contains the necessary values, and then I confirm that these values were actually sent. Using a callback function, I check if the response has the id property, and after that, I perform the `POST` request that should be intercepted.
 
 
+## How to execute the project
+
+###### Instalar dependências
+```npm install --save-dev cypress```
+
+<!-- pagebreak -->
+
+###### Execution via Cypress Web
+To execute via Cypress Web App, run the command below
+``` npx cypress open ```
+
+<!-- pagebreak -->
+
+###### Execution via Terminal
+Local
+```npx cypress run```
+
+Local execution with output of results to the Cypress Dashboard
+```npx cypress run --record --key 7e7c9ff4-ca24-4ed6-92b6-5bd7f4f4cdad```
+<!-- pagebreak --->
+
+###### Execução via Circle CI
